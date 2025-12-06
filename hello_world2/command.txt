@@ -1,0 +1,4 @@
+smlsharp -o sentence.o -c sentence.sml
+smlsharp -o printing.o -c printing.sml
+smlsharp -o hello_world printing.smi
+
