@@ -1,0 +1,7 @@
+_require "basis.smi"
+
+structure FunctionTest = 
+struct
+  val power : int64 -> int64 -> int64
+end
+
