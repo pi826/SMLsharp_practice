@@ -1,0 +1,3 @@
+_require "basis.smi"
+
+val h : ['a. 'a list -> 'a]
