@@ -1,0 +1,4 @@
+_require "basis.smi"
+
+val listExists : ['a#eq. 'a -> 'a -> bool]
+val intersection : ['a#eq. ('a list)*('a list) -> 'a list]
