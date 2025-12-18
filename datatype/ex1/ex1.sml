@@ -1,0 +1,4 @@
+datatype 'a relist = Nil | Cons of 'a * 'a relist
+infix Cons
+
+
