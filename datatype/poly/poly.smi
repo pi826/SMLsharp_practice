@@ -1,0 +1,11 @@
+
+
+structure Poly =
+struct
+  datatype poly =
+    Const of int
+  | Var of string
+  | Add of poly * poly
+
+  val isConst : poly -> bool
+end
